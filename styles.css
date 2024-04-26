@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
@@ -9,27 +9,49 @@ body {
 
 header {
     background: #006699;
-    color: #fff;
-    padding: 20px 10px;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .profile-photo {
-    float: centre; /* Aligns the photo to the left */
-    width: 200px; /* Adjust width as needed */
+    float: center;
+    width: 200px;
     height: auto;
-    margin: 10px 20px 10px 0; /* Adjust margins to space text from image */
-    border-radius: 4px; /* Optional: for rounded corners */
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
 section {
     clear: both;
     padding: 20px;
-    margin: 10px;
-    background: #fff;
-    overflow: auto; /* Clears float for the section */
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.education-block {
-    margin-bottom: 20px;
+h2 {
+    border-bottom: 2px solid #006699;
+    padding-bottom: 10px;
+}
+
+.main {
+    padding: 20px;
 }
